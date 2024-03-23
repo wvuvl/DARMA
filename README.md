@@ -53,10 +53,10 @@ Note: the data from the internet does not have metadata.
 
 
 ```bibtex
-@article{keaton2021fine,
-  title={Fine-grained visual classification of plant species in the wild: Object detection as a reinforced means of attention},
-  author={Keaton, Matthew R and Zaveri, Ram J and Kovur, Meghana and Henderson, Cole and Adjeroh, Donald A and Doretto, Gianfranco},
-  journal={arXiv preprint arXiv:2106.02141},
-  year={2021}
+@inproceedings{keatonZKHAD21cvprw,
+  author = {Keaton, M. R. and Zaveri, R. J. and Kovur, M. and Henderson, C. and Adjeroh, D. A. and Doretto, G.},
+  title = {{Fine-Grained Visual Classification of Plant Species In The Wild: Object Detection as A Reinforced Means of Attention}},
+  booktitle = {Proceedings of the IEEE CVPR Workshop on Fine-Grained Visual Categorization},
+  year = {2021},
 }
 ```
