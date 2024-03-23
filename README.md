@@ -22,6 +22,9 @@
 <img src="assets/pipeline.png" width="80%">
 </p>
 
+### Challenge
+We tackle the challenege of "fine-grained visual classification of plant species in the wild" using the data from the challenge [PlantCLEF2015](https://www.imageclef.org/lifeclef/2015/plant). Here, we reinforce the classification task by reducing the classification to various plant organs and then fusing the final results. We do that by performing object detection onto those organs. We make our curated data and our annotation tool publicly available in the following section. 
+
 ### Curated Data
 
 Please download the data from our shared Google Drive [link](https://drive.google.com/drive/folders/1NKteWNjgv-bsJ908dTsjaHJAte-Z2_Y3?usp=sharing). We collect data from the challenge [PlantCLEF2015](https://www.imageclef.org/lifeclef/2015/plant), and annotate plant organs using our custom-made [annotation tool](https://github.com/wvuvl/snappy_annotator) in the following classes:
@@ -29,22 +32,22 @@ Please download the data from our shared Google Drive [link](https://drive.googl
 - `fruit`
 - `flower`
 - `bark`
-- `HDL`
+- `HDL`: High Density Leaves
 
 The challenge provides two splits:
 - `train`
 - `test`
 
-The `train` set provides 1000 species to train on and the `test` set provides 975 species to evaluate on. Additionally, the data is skewed; therefore, we further scrap the internet for more data which we also make available through our shared Google Drive [link](https://drive.google.com/drive/folders/1NKteWNjgv-bsJ908dTsjaHJAte-Z2_Y3?usp=sharing). The splits are in the following format
+The `train` set provides 1000 species to train on and the `test` set provides 975 species to evaluate on. Additionally, the data is skewed; therefore, we further scrap the internet for more data which we also make available through our shared Google Drive [link](https://drive.google.com/drive/folders/1NKteWNjgv-bsJ908dTsjaHJAte-Z2_Y3?usp=sharing). The splits are in the following format:
 - `train_split.zip` : train split
 - `train_extra_web_images.zip` : additional train data through web scrapping
 - `test_split.zip`: test split
 
 Each of them contain data in the following format:
-- `species`
-    - .jpg : image
-    - .xml : corresponding metadata
-    - _annotations.xml: corresponding annotations
+- `<split>/species`
+    - \<id\>.jpg : image
+    - \<id\>.xml : corresponding metadata
+    - \<id\>_annotations.xml: corresponding annotations
 
 Note: the data from the internet does not have metadata.
 
