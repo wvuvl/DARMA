@@ -27,7 +27,7 @@ We tackle the challenege of "fine-grained visual classification of plant species
 
 ### Curated Data
 
-Please download the data from our shared Google Drive [link](https://drive.google.com/drive/folders/13bOuB7U15CgYMm1vrd0jgtOXFwMlHqXf?usp=sharing){:target="_blank"}. We collect data from the challenge [PlantCLEF2015](https://www.imageclef.org/lifeclef/2015/plant), and annotate plant organs using our custom-made [annotation tool](https://github.com/wvuvl/snappy_annotator) in the following classes:
+Please download the data from our shared Google Drive [link](https://drive.google.com/drive/folders/13bOuB7U15CgYMm1vrd0jgtOXFwMlHqXf?usp=sharing). We collect data from the challenge [PlantCLEF2015](https://www.imageclef.org/lifeclef/2015/plant), and annotate plant organs using our custom-made [annotation tool](https://github.com/wvuvl/snappy_annotator) in the following classes:
 - `leaf`
 - `fruit`
 - `flower`
