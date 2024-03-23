@@ -10,7 +10,7 @@
     ·
     <a href=""><strong>Cole Henderson</strong></a>
     ·
-    <a href="https://scholar.google.com/citations?user=ReEG0FwAAAAJ&hl=en"><strong>Gianfranco Doretto</strong></a>
+    <a href="https://vision.csee.wvu.edu/~doretto/"><strong>Gianfranco Doretto</strong></a>
     
   </p>
 
